@@ -1,0 +1,3 @@
+include ':buttonsonscreen'
+include ':app'
+rootProject.name = "Day07_Orientation"

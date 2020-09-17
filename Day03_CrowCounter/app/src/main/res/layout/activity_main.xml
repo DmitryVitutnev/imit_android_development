@@ -11,8 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/greetings"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button_counter"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,9 +23,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="67dp"
         android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/button_greetings"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_counter"
@@ -32,7 +35,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="101dp"
         android:text="@string/counter"
+        app:layout_constraintBottom_toTopOf="@+id/button_counter_cat"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_greetings" />
 
@@ -42,7 +47,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="@string/counter_cats"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_counter" />
 </androidx.constraintlayout.widget.ConstraintLayout>
