@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
             button1.text = getScreenOrientation() ?: "Первая кнопка"
         }
 
-        button1.setOnClickListener {
-            button1.text = getRotateOrientation() ?: "Вторая кнопка"
+        button2.setOnClickListener {
+            button2.text = getRotateOrientation() ?: "Вторая кнопка"
         }
     }
 
