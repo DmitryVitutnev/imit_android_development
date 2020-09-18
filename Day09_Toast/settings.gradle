@@ -1,0 +1,3 @@
+include ':toastpractice'
+include ':app'
+rootProject.name = "Day09_Toast"
