@@ -1,0 +1,6 @@
+include ':battery'
+include ':bootreceiver'
+include ':timetick'
+include ':periodic'
+include ':app'
+rootProject.name = "Day30_Broadcast"
